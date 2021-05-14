@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-operarios-barredoras',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OperariosBarredorasComponent implements OnInit {
 
-  constructor() { }
+  constructor( private router: Router ) { }
 
   ngOnInit(): void {
+  }
+
+  pasarexcel(){
+    this.router.navigate(['/inicio']);
   }
 
 }

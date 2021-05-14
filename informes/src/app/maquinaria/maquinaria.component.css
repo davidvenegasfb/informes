@@ -2,3 +2,56 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+table{
+    width:100%;
+}
+
+#th1{
+    background-color:rgb(0, 81, 255);
+}
+
+#th2{
+    width: 150px;
+}
+
+#img1{
+    width: 150px;
+    height: 100px;
+}
+
+#title2{
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+    font-weight: bold;
+}
+
+#tr21, #tr22, #tr23, #tr24, #tr25, #tr26, #tr27{
+    height: 40px;
+}
+
+#tr28, #tr29, #tr210, #tr212{
+    height: 50px;
+}
+
+#tr211{
+    text-align: center;
+}
+
+#button{
+  margin: 20px;
+  position: absolute;
+  left: 45%;
+}
+
+#space{
+    height: 70px;
+}
+
+#write1, #write2{
+    width: 500px;
+}
+
+#text11, #text12{
+    text-align: center;
+}
