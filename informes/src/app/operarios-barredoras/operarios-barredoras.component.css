@@ -1,0 +1,55 @@
+#button{
+    margin: 20px;
+    position: absolute;
+    left: 45%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width:100%;
+}
+
+tr{
+    height: 25px;
+}
+
+#td-final{
+    height: 200px;
+}
+
+#observaciones{
+    text-align: center;
+}
+
+#button{
+    margin: 20px;
+    position: absolute;
+    left: 45%;
+}
+
+#space{
+    height: 70px;
+}
+
+.small{
+    width: 110px;
+    text-align: center;
+}
+
+.blue{
+    background-color:rgb(0, 81, 255);
+    width: 700px;
+    text-align: center;
+}
+
+.noblue{
+    width: 700px;
+}
+
+.sino{
+    width: 25px;
+}
